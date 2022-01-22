@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>learn_to_ajax_request</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<h1 class="header">LEARN AJAX-REQUESTS</h1>
+<div class="wr">
+    <div>
+        <input type="text" id="valueForCreate">
+    </div>
+    <div><input type="text" id="valueForUpdate">
+    </div>
+    <div>
+        <input type="text" id="idForDelete">
+    </div>
+    <div>
+        <input type="number" id="numberPageOfTask" value="1">
+    </div>
+    <div>
+        <input type="number" id="numberPageOfImg">
+    </div>
+    <div>text for title</div>
+    <div>text for update task</div>
+    <div>id</div>
+    <div>number page</div>
+    <div> number page</div>
+    <div>
+        <button id="createTaskBt">Click me</button>
+    </div>
+    <div>
+        <button id="updateTaskBt">Click me</button>
+    </div>
+    <div>
+        <button id="deleteTaskBt">Click me</button>
+    </div>
+    <div>
+        <button id="getTaskBt">Click me</button>
+    </div>
+    <div>
+        <button id="getImgBt">Click me</button>
+    </div>
+    <div>create task</div>
+    <div>update task</div>
+    <div>delete task</div>
+    <div>get tasks</div>
+    <div>get images</div>
+    <div  class="idForUpdate">
+        <input type="text" value="id for update" id="idForUpdate">
+    </div>
+</div>
+<div class="wrapForResult">
+    <ul id="resultGetTask" class="resultGetTask"></ul>
+    <div id="resultGetImg" class="resultGetImg"></div>
+</div>
+<script src="requests-logik.js" type="text/javascript"></script>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>

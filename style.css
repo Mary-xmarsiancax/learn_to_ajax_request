@@ -1,0 +1,44 @@
+.wr {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 2fr 2fr;
+    grid-template-rows:1fr 1fr 1fr 2fr 1fr;
+    border: crimson solid 2px;
+    grid-gap: 1em;
+    padding: 2em;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.wr button {
+    size: auto;
+}
+
+.idForUpdate {
+    grid-column: 2/3;
+}
+
+.wrapForResult {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+    padding: 2em;
+    text-align: center;
+    border-left: crimson solid 2px;
+    border-right: crimson solid 2px;
+}
+
+.resultGetTask {
+    grid-column: 4/5;
+}
+
+.resultGetImg {
+    grid-column: 5/6;
+}
+
+.resultGetImg img {
+    height: 40px;
+}
